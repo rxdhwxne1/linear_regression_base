@@ -24,28 +24,18 @@ git clone https://github.com/rxdhwxne1/linear_regression_base.git
 cd linear_regression_base
 pip install -r requirements.txt
 ```
-
 ## Usage
-```python
-from linear_regression import LinearRegression
 
-# Initialize the model
-model = LinearRegression(learning_rate=0.01, iterations=1000)
-
-# Train the model
-model.fit(X_train, y_train)
-
-# Make predictions
-predictions = model.predict(X_test)
+```bash
+python linear_regression.py
 ```
 
 ## Algorithm
 The implementation follows these steps:
-1. Initialize parameters (weights and bias)
-2. Calculate predictions using y = mx + b
-3. Compute the cost function (MSE)
-4. Update parameters using gradient descent
-5. Repeat until convergence
+1. Calculate predictions using y = mx + b
+2. Compute the cost function (MSE)
+3. Update parameters using gradient descent
+4. Repeat until convergence
 
 ## Results
 Include visualizations of your model's performance on sample data.
