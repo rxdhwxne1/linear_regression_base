@@ -20,7 +20,7 @@ This project implements linear regression from scratch without using machine lea
 
 ### Installation
 ```bash
-git clone https://github.com/username/linear_regression_base.git
+git clone https://github.com/rxdhwxne1/linear_regression_base.git
 cd linear_regression_base
 pip install -r requirements.txt
 ```
